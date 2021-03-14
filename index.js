@@ -63,8 +63,12 @@ function makesound(key){
 
 }
 
+function buttonanimation(currentKey){
+
+  var activebutton = document.querySelector("." + currentKey);
+
+  activebutton.classList.add("pressed");
+
+}
 
 
-
-// var audio = new Audio("sounds/tom-1.mp3");
-// audio.play();
